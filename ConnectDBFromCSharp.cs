@@ -1,4 +1,5 @@
 //C# program to connect to Microsoft SQL Server 2017 DB with ADO.NET
+//program developed by sharayu for git demo
 
 using System;
 using System.Data;
