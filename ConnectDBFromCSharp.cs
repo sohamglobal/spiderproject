@@ -1,5 +1,5 @@
 //C# program to connect to Microsoft SQL Server 2017 DB with ADO.NET
-//program developed by sharayu for git demo
+//program corrected by shailaja 
 
 using System;
 using System.Data;
@@ -17,7 +17,7 @@ int bal;
 
 try
 {
-scon=new SqlConnection("server=sohamglobal\\sqlexpress;uid=sa;pwd=microsoft;database=sharayudb");
+scon=new SqlConnection("server=sohamglobal\\sqlexpress;uid=sa;pwd=microsoft;database=globalanalyticsdb");
 
 sda=new SqlDataAdapter("select * from accounts;",scon);
 
