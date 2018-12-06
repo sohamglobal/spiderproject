@@ -17,14 +17,14 @@ int bal;
 
 try
 {
-scon=new SqlConnection("server=sohamglobal\\sqlexpress;uid=sa;pwd=microsoft;database=amazondb0815");
+scon=new SqlConnection("server=sohamglobal\\sqlexpress;uid=sa;pwd=microsoft;database=sharayudb");
 
 sda=new SqlDataAdapter("select * from accounts;",scon);
 
 ds=new DataSet();
 sda.Fill(ds,"acc");
 
-//Console.WriteLine(ds.GetXml());
+Console.WriteLine(ds.GetXml());
 //-------
 
 int cnt=ds.Tables["acc"].Rows.Count;
